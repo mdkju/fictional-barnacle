@@ -1,0 +1,33 @@
+TAG: 2.14.5-clone-MOD-v6-xml-fix-final(24011894)
+PERMISSION: APP
+ABI: arm64-v8a
+Official RE-Mod by MT : true
+MODEL: CPH2477
+SDK: 31
+RELEASE: 12
+TARGET_SDK: 30
+---StackTrace---
+java.io.IOException: Unable to open file '/data/app/~~Of-xkOBplqpq9GgAqTiaSg==/com.imo.android.imoim-elyv52_JkhCNWIt3GbhfbQ==/base_sign.apk': Permission denied
+	at l.ۘۚۖ.ۥ(Unknown Source:17)
+	at l.ۨۚۖ.ۥ(Unknown Source:58)
+	at l.ۨۚۖ.ۛ(Unknown Source:101)
+	at l.ۨۚۖ.ۨ(Unknown Source:10)
+	at l.ۛ۟ۖ.ۚ(Unknown Source:32)
+	at l.ۚۦۨۥ.<init>(Unknown Source:45)
+	at l.ۖۦۤ.ۥ(Unknown Source:14)
+	at l.ۥ۟ۤ.ۥ(Unknown Source:89)
+	at l.ۗ۟ۡ.ۥ(Unknown Source:22)
+	at l.ۙ۠ۚ.ۜ(Unknown Source:103)
+	at l.ۘۢۥۥ.ۥ(Unknown Source:45)
+	at l.ۨۢۥۥ.run(Unknown Source:6)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+Caused by: java.io.IOException: Unable to open file '/data/app/~~Of-xkOBplqpq9GgAqTiaSg==/com.imo.android.imoim-elyv52_JkhCNWIt3GbhfbQ==/base_sign.apk': Permission denied
+	at l.ۨۚۖ.ۛ(Unknown Source:92)
+	at l.ۨۚۖ.ۥ(Unknown Source:26)
+	at l.۫۟ۖ.call(Unknown Source:8)
+	at l.ۨۚۖ.ۥ(Unknown Source:44)
+	... 15 more
